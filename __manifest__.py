@@ -22,7 +22,11 @@
 
     # always loaded
     'data': [
+        'security/discipline_groups.xml',
+        'security/ir.model.access.csv',
         'views/major_view.xml',
+        'views/classes_view.xml',
+        'menu/menu_action.xml',
     ],
     # only loaded in demonstration mode
     "application": True,
